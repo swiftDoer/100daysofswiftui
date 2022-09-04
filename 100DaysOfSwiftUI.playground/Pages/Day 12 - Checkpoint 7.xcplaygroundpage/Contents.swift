@@ -4,13 +4,12 @@ import UIKit
 //Checkpoint 7:
 
 class Animal {
-    let legs:Int
+    let legs: Int
     init(legs: Int){
         self.legs = legs
     }
     
 }
-
 
 class Dog: Animal {
     func speak(){
