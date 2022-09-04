@@ -4,7 +4,11 @@ import UIKit
 struct Car {
     private let model: String
     private let seats: Int
-    private(set) var currentGear = 1
+    private(set) var currentGear = 1 {
+        didSet{
+            print("You changed the gear to \(currentGear)")
+        }
+    }
     static var example = Car(model: "Some Audi", seats: 5)
     
     
@@ -24,4 +28,7 @@ struct Car {
 
 print(Car.example)
 Car.example.changeGear(gearUp: true)
-print(Car.example)
+Car.example.changeGear(gearUp: true)
+Car.example.changeGear(gearUp: true)
+Car.example.changeGear(gearUp: false)
+Car.example.changeGear(gearUp: false)
