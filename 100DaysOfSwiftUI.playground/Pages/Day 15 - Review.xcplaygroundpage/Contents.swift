@@ -188,3 +188,13 @@ var dogFoodAmount: Int {
 }
 print(dogFoodAmount)
 
+
+
+
+outer: for i in 1...10 {
+    for j in 1...10 {
+        let product = i * j
+        print("Product is \(product)")
+        break outer
+    }
+}
