@@ -1,36 +1,70 @@
-//
-//  ContentView.swift
-//  WeSplit
-//
-//  Created by Andreas Nuss on 07.09.22.
-//
 
 import SwiftUI
 
 struct ContentView: View {
-    let students = ["Harry", "Potter", "Run"]
-    @State private var name = ""
-    let colors = [2,21,3,5,4,2,2,2]
-    @State private var color = 0
+    @State private var amountOfPeopple = 0
+    @State private var totalCost = 0.0
+    @State private var tipPercentage = 0.10
+    @FocusState private var priceIsFocused: Bool
+    
+    let tipPercentages = [0.0, 0.05, 0.10, 0.15, 0.20]
+    
+    var totalPerPerson: Double {
+        let result = (totalCost * (1 + tipPercentage))/Double(amountOfPeopple + 2)
+        return result
+    }
+    
     
     var body: some View {
         NavigationView {
             Form {
-                Picker("Select your student", selection: $name) {
-                    ForEach(students, id: \.self) {
-                        Text($0)
+                Section {
+                    TextField("Food total", value: $totalCost, format: .currency(code:
+                        Locale.current.currencyCode ?? "USD"))
+                        .keyboardType(.decimalPad)
+                        .focused($priceIsFocused)
+                    
+                    Picker("Food enjoyers", selection: $amountOfPeopple) {
+                        ForEach(2..<100) {
+                            Text("\($0) people")
+                        }
                     }
+                } header: {
+                    Text("Price and enjoyers")
                 }
                 
-                Picker("Select your favorite color", selection: $color){
-                    ForEach(colors, id: \.self) {
-                        Text(String($0))
+                Section {
+                    Picker("Tip Percentage", selection: $tipPercentage) {
+                        ForEach(tipPercentages, id: \.self) {
+                            Text($0, format: .percent)
+                        }
+                    }
+                    .pickerStyle(.segmented)
+                } header: {
+                    Text("Tip percentage")
+                }
+                
+                Section {
+                    
+                    Text(totalPerPerson, format: .currency(code:
+                        Locale.current.currencyCode ?? "USD"))
+                } header: {
+                    Text("Cost per Person")
+                }
+            }
+            .navigationTitle("WeSplit")
+            .toolbar{
+                ToolbarItemGroup(placement: .keyboard) {
+                    Spacer()
+                    Button("Done"){
+                        priceIsFocused = false
                     }
                 }
             }
         }
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
