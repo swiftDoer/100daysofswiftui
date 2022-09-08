@@ -9,15 +9,15 @@ struct ContentView3: View {
     
     var computedPricePerPerson: Double {
         
-        let tipValue = totalCost / (100 * Double(tipPercentage))
+        let tipValue = totalCost * (Double(tipPercentage)/100)
         let grandTotal = totalCost + tipValue
-        let amountPerPerson = grandTotal / Double(numberOfPeople + 2)
+        let amountPerPerson = grandTotal / Double(numberOfPeople)
         
         return amountPerPerson
     }
     var computedPrice: Double {
         
-        let tipValue = totalCost / (100 * Double(tipPercentage))
+        let tipValue = totalCost * (Double(tipPercentage)/100)
         let grandTotal = totalCost + tipValue
         
         return grandTotal
