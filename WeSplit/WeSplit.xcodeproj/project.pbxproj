@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7D2662C328CA119E00FCB731 /* SecondTryBlind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2662C228CA119E00FCB731 /* SecondTryBlind.swift */; };
+		7D492EFB28CB2F880058C961 /* Project2Prep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D492EFA28CB2F880058C961 /* Project2Prep.swift */; };
 		7D88F84E28C8BEEA00AD0848 /* WeSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D88F84D28C8BEEA00AD0848 /* WeSplitApp.swift */; };
 		7D88F85028C8BEEA00AD0848 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D88F84F28C8BEEA00AD0848 /* ContentView.swift */; };
 		7D88F85228C8BEEC00AD0848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D88F85128C8BEEC00AD0848 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		7D2662C228CA119E00FCB731 /* SecondTryBlind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTryBlind.swift; sourceTree = "<group>"; };
+		7D492EFA28CB2F880058C961 /* Project2Prep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project2Prep.swift; sourceTree = "<group>"; };
 		7D88F84A28C8BEEA00AD0848 /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D88F84D28C8BEEA00AD0848 /* WeSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitApp.swift; sourceTree = "<group>"; };
 		7D88F84F28C8BEEA00AD0848 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				7D2662C228CA119E00FCB731 /* SecondTryBlind.swift */,
 				7DC5D09928CA30360011E897 /* fixPercentages.swift */,
 				7DC5D09B28CA63A60011E897 /* Day19Challenge.swift */,
+				7D492EFA28CB2F880058C961 /* Project2Prep.swift */,
 				7D88F85128C8BEEC00AD0848 /* Assets.xcassets */,
 				7D88F85328C8BEEC00AD0848 /* Preview Content */,
 			);
@@ -151,6 +154,7 @@
 				7D88F85028C8BEEA00AD0848 /* ContentView.swift in Sources */,
 				7D88F84E28C8BEEA00AD0848 /* WeSplitApp.swift in Sources */,
 				7DC5D09A28CA30360011E897 /* fixPercentages.swift in Sources */,
+				7D492EFB28CB2F880058C961 /* Project2Prep.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
