@@ -4,7 +4,7 @@ import SwiftUI
 struct WeSplitApp: App {
     var body: some Scene {
         WindowGroup {
-            Project2Blind()
+            Project2Final()
         }
     }
 }
