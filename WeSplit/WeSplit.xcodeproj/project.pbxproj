@@ -20,6 +20,7 @@
 		7DC5D09A28CA30360011E897 /* ProjectWeSplitFixPercentages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC5D09928CA30360011E897 /* ProjectWeSplitFixPercentages.swift */; };
 		7DC5D09C28CA63A60011E897 /* Project1Final.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC5D09B28CA63A60011E897 /* Project1Final.swift */; };
 		7DE2155428CCA6E70006BEEF /* Project3Challenge3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE2155328CCA6E70006BEEF /* Project3Challenge3.swift */; };
+		7DE2155628CCB6270006BEEF /* Project1-3Milestone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE2155528CCB6270006BEEF /* Project1-3Milestone.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		7DC5D09928CA30360011E897 /* ProjectWeSplitFixPercentages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectWeSplitFixPercentages.swift; sourceTree = "<group>"; };
 		7DC5D09B28CA63A60011E897 /* Project1Final.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project1Final.swift; sourceTree = "<group>"; };
 		7DE2155328CCA6E70006BEEF /* Project3Challenge3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project3Challenge3.swift; sourceTree = "<group>"; };
+		7DE2155528CCB6270006BEEF /* Project1-3Milestone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project1-3Milestone.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				7D492F0028CBA93D0058C961 /* Project2Final.swift */,
 				7D492F0228CBC14A0058C961 /* Project3Prep.swift */,
 				7DE2155328CCA6E70006BEEF /* Project3Challenge3.swift */,
+				7DE2155528CCB6270006BEEF /* Project1-3Milestone.swift */,
 				7D492EFE28CB6B420058C961 /* EmptyTemplate.swift */,
 				7DE2155228CCA6B50006BEEF /* First Block Projects */,
 				7D88F85128C8BEEC00AD0848 /* Assets.xcassets */,
@@ -180,6 +183,7 @@
 				7D88F85028C8BEEA00AD0848 /* ProjectWeSplit.swift in Sources */,
 				7D492F0128CBA93D0058C961 /* Project2Final.swift in Sources */,
 				7D88F84E28C8BEEA00AD0848 /* WeSplitApp.swift in Sources */,
+				7DE2155628CCB6270006BEEF /* Project1-3Milestone.swift in Sources */,
 				7D492EFD28CB6ABD0058C961 /* Project2Blind.swift in Sources */,
 				7DC5D09A28CA30360011E897 /* ProjectWeSplitFixPercentages.swift in Sources */,
 				7D492EFB28CB2F880058C961 /* Project2Prep.swift in Sources */,
