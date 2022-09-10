@@ -49,6 +49,7 @@ struct ContentView3: View {
                         ForEach(0..<101, id: \.self){
                             Text($0, format:
                                 .percent)
+                                
                         }
                     }
                     //.pickerStyle(.segmented)
@@ -58,7 +59,8 @@ struct ContentView3: View {
                 
                 Section {
                     Text(computedPrice, format:
-                            .currency(code: Locale.current.currencyCode ?? "USD"))
+                        .currency(code: Locale.current.currencyCode ?? "USD"))
+                        .foregroundColor(tipPercentage == 0 ? .red : .primary)
                 } header: {
                     Text("TOTAL AMOUNT")
                 }
@@ -90,6 +92,6 @@ struct ContentView3: View {
 
 struct ContentView3_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView2()
+        ContentView3()
     }
 }

@@ -1,5 +1,20 @@
 import SwiftUI
 
+//custom view for ForEach button label
+
+struct FlagImage: View {
+    var country = [String]()
+    var number: Int
+    
+    var body: some View {
+        Image(country[number])
+            .renderingMode(.original)
+            .clipShape(Capsule())
+            .shadow(radius: 5)
+    }
+}
+
+
 struct Project2Final:View {
     @State public var countryArray = ["Germany", "Nigeria", "France", "Ireland", "Russia", "Italy", "Estonia", "Monaco", "Poland", "Spain", "UK", "US"]
         .shuffled()
@@ -11,6 +26,7 @@ struct Project2Final:View {
     @State public var gameOver = false
     let gameOverMessage = "Game over"
     @State public var updatedVisualScore = ""
+    
     
     var body: some View {
         ZStack {
@@ -33,10 +49,11 @@ struct Project2Final:View {
                     Button {
                         flagCheck(number)
                     } label: {
-                        Image(countryArray[number])
-                            .renderingMode(.original)
-                            .clipShape(Capsule())
-                            .shadow(radius: 5)
+//                        Image(countryArray[number])           I used custom view (FlagImage) instead
+//                            .renderingMode(.original)
+//                            .clipShape(Capsule())
+//                            .shadow(radius: 5)
+                        FlagImage(country: countryArray, number: number)
                         
                     }.alert(prompt, isPresented: $alert) {
                         Button("Continue", action: newRoll)
