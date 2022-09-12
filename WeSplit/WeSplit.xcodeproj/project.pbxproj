@@ -7,16 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D01118828CDC44B00386217 /* Project4Prep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D01118728CDC44B00386217 /* Project4Prep.swift */; };
+		7D01118A28CE071600386217 /* Projekt4Honki.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D01118928CE071600386217 /* Projekt4Honki.swift */; };
 		7D2662C328CA119E00FCB731 /* SecondTryBlind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2662C228CA119E00FCB731 /* SecondTryBlind.swift */; };
 		7D492EFB28CB2F880058C961 /* Project2Prep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D492EFA28CB2F880058C961 /* Project2Prep.swift */; };
 		7D492EFD28CB6ABD0058C961 /* Project2Blind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D492EFC28CB6ABD0058C961 /* Project2Blind.swift */; };
 		7D492EFF28CB6B420058C961 /* EmptyTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D492EFE28CB6B420058C961 /* EmptyTemplate.swift */; };
 		7D492F0128CBA93D0058C961 /* Project2Final.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D492F0028CBA93D0058C961 /* Project2Final.swift */; };
 		7D492F0328CBC14A0058C961 /* Project3Prep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D492F0228CBC14A0058C961 /* Project3Prep.swift */; };
+		7D4B5A0C28CE0EA900D23719 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B5A0B28CE0EA900D23719 /* SleepCalculator.mlmodel */; };
+		7D4B5A0E28CE18AA00D23719 /* Projekt5Prep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B5A0D28CE18AA00D23719 /* Projekt5Prep.swift */; };
 		7D88F84E28C8BEEA00AD0848 /* WeSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D88F84D28C8BEEA00AD0848 /* WeSplitApp.swift */; };
 		7D88F85028C8BEEA00AD0848 /* ProjectWeSplit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D88F84F28C8BEEA00AD0848 /* ProjectWeSplit.swift */; };
 		7D88F85228C8BEEC00AD0848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D88F85128C8BEEC00AD0848 /* Assets.xcassets */; };
 		7D88F85528C8BEEC00AD0848 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D88F85428C8BEEC00AD0848 /* Preview Assets.xcassets */; };
+		7DB8031B28CD088200111F8C /* playground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB8031A28CD088200111F8C /* playground.swift */; };
 		7DC5D09A28CA30360011E897 /* ProjectWeSplitFixPercentages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC5D09928CA30360011E897 /* ProjectWeSplitFixPercentages.swift */; };
 		7DC5D09C28CA63A60011E897 /* Project1Final.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC5D09B28CA63A60011E897 /* Project1Final.swift */; };
 		7DE2155428CCA6E70006BEEF /* Project3Challenge3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE2155328CCA6E70006BEEF /* Project3Challenge3.swift */; };
@@ -24,17 +29,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D01118728CDC44B00386217 /* Project4Prep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project4Prep.swift; sourceTree = "<group>"; };
+		7D01118928CE071600386217 /* Projekt4Honki.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projekt4Honki.swift; sourceTree = "<group>"; };
 		7D2662C228CA119E00FCB731 /* SecondTryBlind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTryBlind.swift; sourceTree = "<group>"; };
 		7D492EFA28CB2F880058C961 /* Project2Prep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project2Prep.swift; sourceTree = "<group>"; };
 		7D492EFC28CB6ABD0058C961 /* Project2Blind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project2Blind.swift; sourceTree = "<group>"; };
 		7D492EFE28CB6B420058C961 /* EmptyTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyTemplate.swift; sourceTree = "<group>"; };
 		7D492F0028CBA93D0058C961 /* Project2Final.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project2Final.swift; sourceTree = "<group>"; };
 		7D492F0228CBC14A0058C961 /* Project3Prep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project3Prep.swift; sourceTree = "<group>"; };
+		7D4B5A0B28CE0EA900D23719 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
+		7D4B5A0D28CE18AA00D23719 /* Projekt5Prep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projekt5Prep.swift; sourceTree = "<group>"; };
 		7D88F84A28C8BEEA00AD0848 /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D88F84D28C8BEEA00AD0848 /* WeSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitApp.swift; sourceTree = "<group>"; };
 		7D88F84F28C8BEEA00AD0848 /* ProjectWeSplit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectWeSplit.swift; sourceTree = "<group>"; };
 		7D88F85128C8BEEC00AD0848 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D88F85428C8BEEC00AD0848 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7DB8031A28CD088200111F8C /* playground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playground.swift; sourceTree = "<group>"; };
 		7DC5D09928CA30360011E897 /* ProjectWeSplitFixPercentages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectWeSplitFixPercentages.swift; sourceTree = "<group>"; };
 		7DC5D09B28CA63A60011E897 /* Project1Final.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project1Final.swift; sourceTree = "<group>"; };
 		7DE2155328CCA6E70006BEEF /* Project3Challenge3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project3Challenge3.swift; sourceTree = "<group>"; };
@@ -82,7 +92,12 @@
 				7D492F0228CBC14A0058C961 /* Project3Prep.swift */,
 				7DE2155328CCA6E70006BEEF /* Project3Challenge3.swift */,
 				7DE2155528CCB6270006BEEF /* Project1-3Milestone.swift */,
+				7D01118728CDC44B00386217 /* Project4Prep.swift */,
+				7D01118928CE071600386217 /* Projekt4Honki.swift */,
+				7D4B5A0D28CE18AA00D23719 /* Projekt5Prep.swift */,
 				7D492EFE28CB6B420058C961 /* EmptyTemplate.swift */,
+				7DB8031A28CD088200111F8C /* playground.swift */,
+				7D4B5A0B28CE0EA900D23719 /* SleepCalculator.mlmodel */,
 				7DE2155228CCA6B50006BEEF /* First Block Projects */,
 				7D88F85128C8BEEC00AD0848 /* Assets.xcassets */,
 				7D88F85328C8BEEC00AD0848 /* Preview Content */,
@@ -176,10 +191,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DE2155428CCA6E70006BEEF /* Project3Challenge3.swift in Sources */,
+				7D4B5A0C28CE0EA900D23719 /* SleepCalculator.mlmodel in Sources */,
 				7D492F0328CBC14A0058C961 /* Project3Prep.swift in Sources */,
 				7DC5D09C28CA63A60011E897 /* Project1Final.swift in Sources */,
 				7D492EFF28CB6B420058C961 /* EmptyTemplate.swift in Sources */,
 				7D2662C328CA119E00FCB731 /* SecondTryBlind.swift in Sources */,
+				7DB8031B28CD088200111F8C /* playground.swift in Sources */,
+				7D4B5A0E28CE18AA00D23719 /* Projekt5Prep.swift in Sources */,
+				7D01118A28CE071600386217 /* Projekt4Honki.swift in Sources */,
 				7D88F85028C8BEEA00AD0848 /* ProjectWeSplit.swift in Sources */,
 				7D492F0128CBA93D0058C961 /* Project2Final.swift in Sources */,
 				7D88F84E28C8BEEA00AD0848 /* WeSplitApp.swift in Sources */,
@@ -187,6 +206,7 @@
 				7D492EFD28CB6ABD0058C961 /* Project2Blind.swift in Sources */,
 				7DC5D09A28CA30360011E897 /* ProjectWeSplitFixPercentages.swift in Sources */,
 				7D492EFB28CB2F880058C961 /* Project2Prep.swift in Sources */,
+				7D01118828CDC44B00386217 /* Project4Prep.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

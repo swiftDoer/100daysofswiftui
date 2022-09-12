@@ -1,13 +1,13 @@
 import SwiftUI
 
-struct STRUCT_NAME: View {
+struct Project5_Prep: View {
     var body: some View {
         Text("Hi!")
     }
 }
 
-struct STRUCT_NAME_Previews: PreviewProvider {
+struct Project5_Prep_Previews: PreviewProvider {
     static var previews: some View {
-        STRUCT_NAME()
+        Project5_Prep()
     }
 }
