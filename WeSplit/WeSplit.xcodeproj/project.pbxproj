@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7D01118828CDC44B00386217 /* Project4Prep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D01118728CDC44B00386217 /* Project4Prep.swift */; };
-		7D01118A28CE071600386217 /* Projekt4Honki.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D01118928CE071600386217 /* Projekt4Honki.swift */; };
+		7D01118A28CE071600386217 /* Projekt4Final.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D01118928CE071600386217 /* Projekt4Final.swift */; };
 		7D14F28228CF320A00E41B7C /* WordScramle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D14F28128CF320A00E41B7C /* WordScramle.swift */; };
 		7D2662C328CA119E00FCB731 /* SecondTryBlind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2662C228CA119E00FCB731 /* SecondTryBlind.swift */; };
 		7D492EFB28CB2F880058C961 /* Project2Prep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D492EFA28CB2F880058C961 /* Project2Prep.swift */; };
@@ -31,7 +31,7 @@
 
 /* Begin PBXFileReference section */
 		7D01118728CDC44B00386217 /* Project4Prep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project4Prep.swift; sourceTree = "<group>"; };
-		7D01118928CE071600386217 /* Projekt4Honki.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projekt4Honki.swift; sourceTree = "<group>"; };
+		7D01118928CE071600386217 /* Projekt4Final.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projekt4Final.swift; sourceTree = "<group>"; };
 		7D14F28128CF320A00E41B7C /* WordScramle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScramle.swift; sourceTree = "<group>"; };
 		7D2662C228CA119E00FCB731 /* SecondTryBlind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTryBlind.swift; sourceTree = "<group>"; };
 		7D492EFA28CB2F880058C961 /* Project2Prep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project2Prep.swift; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 				7DE2155328CCA6E70006BEEF /* Project3Challenge3.swift */,
 				7DE2155528CCB6270006BEEF /* Project1-3Milestone.swift */,
 				7D01118728CDC44B00386217 /* Project4Prep.swift */,
-				7D01118928CE071600386217 /* Projekt4Honki.swift */,
+				7D01118928CE071600386217 /* Projekt4Final.swift */,
 				7D4B5A0D28CE18AA00D23719 /* Projekt5Prep.swift */,
 				7D14F28128CF320A00E41B7C /* WordScramle.swift */,
 				7D492EFE28CB6B420058C961 /* EmptyTemplate.swift */,
@@ -201,7 +201,7 @@
 				7D2662C328CA119E00FCB731 /* SecondTryBlind.swift in Sources */,
 				7DB8031B28CD088200111F8C /* playground.swift in Sources */,
 				7D4B5A0E28CE18AA00D23719 /* Projekt5Prep.swift in Sources */,
-				7D01118A28CE071600386217 /* Projekt4Honki.swift in Sources */,
+				7D01118A28CE071600386217 /* Projekt4Final.swift in Sources */,
 				7D14F28228CF320A00E41B7C /* WordScramle.swift in Sources */,
 				7D88F85028C8BEEA00AD0848 /* ProjectWeSplit.swift in Sources */,
 				7D492F0128CBA93D0058C961 /* Project2Final.swift in Sources */,
