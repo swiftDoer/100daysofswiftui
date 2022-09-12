@@ -2,7 +2,11 @@ import SwiftUI
 
 struct Project5_Prep: View {
     var body: some View {
-        Text("Hi!")
+        List{
+            Text("Hi!")
+            Text("Hi!")
+            Text("Hi!")
+        }
     }
 }
 

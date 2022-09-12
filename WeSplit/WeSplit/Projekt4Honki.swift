@@ -20,21 +20,17 @@ struct Project4Honki: View {
     var body: some View {
         NavigationView {
             Form {
-                Section {
+                Section("When do you want to wake up?") {
                     DatePicker("Please enter a time", selection: $wakeUp, displayedComponents: .hourAndMinute)
                         .labelsHidden()
-                } header: {
-                    Text("When do you want to wake up?")
                 }
                 
-                Section {
+                Section("Desired amount of sleep") {
                     Stepper("\(sleepAmount.formatted()) hours", value: $sleepAmount, in: 4...12, step: 0.25)
                     
-                } header: {
-                    Text("Desired amount of sleep")
                 }
                 
-                Section {
+                Section("Daily coffee intake") {
                     Picker(selection: $coffeeAmount, label: EmptyView()) {
                         ForEach(1..<21) { number in
                             HStack {
@@ -46,14 +42,10 @@ struct Project4Honki: View {
                     }
                     .labelsHidden()
                     
-                } header: {
-                    Text("Daily coffee intake")
                 }
                 
-                Section {
+                Section("Daily coffee intake") {
                     Text(calculateBedtime())
-                } header: {
-                    Text("Daily coffee intake")
                 }
                 
                 .navigationTitle("BetterRest")
