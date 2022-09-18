@@ -9,60 +9,94 @@
 /* Begin PBXBuildFile section */
 		7D01118828CDC44B00386217 /* Project4Prep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D01118728CDC44B00386217 /* Project4Prep.swift */; };
 		7D01118A28CE071600386217 /* Projekt4Final.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D01118928CE071600386217 /* Projekt4Final.swift */; };
-		7D14F28228CF320A00E41B7C /* empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D14F28128CF320A00E41B7C /* empty.swift */; };
 		7D14F28428CF46BA00E41B7C /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7D14F28328CF46BA00E41B7C /* start.txt */; };
 		7D14F28628CFA5D200E41B7C /* Project6Prep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D14F28528CFA5D200E41B7C /* Project6Prep.swift */; };
 		7D2662C328CA119E00FCB731 /* SecondTryBlind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2662C228CA119E00FCB731 /* SecondTryBlind.swift */; };
+		7D2ECBE428D3B8F2001E6A39 /* smalltest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2ECBE328D3B8F2001E6A39 /* smalltest.swift */; };
 		7D492EFB28CB2F880058C961 /* Project2Prep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D492EFA28CB2F880058C961 /* Project2Prep.swift */; };
 		7D492EFD28CB6ABD0058C961 /* Project2Blind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D492EFC28CB6ABD0058C961 /* Project2Blind.swift */; };
-		7D492EFF28CB6B420058C961 /* emptyTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D492EFE28CB6B420058C961 /* emptyTemplate.swift */; };
 		7D492F0128CBA93D0058C961 /* Project2Final.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D492F0028CBA93D0058C961 /* Project2Final.swift */; };
 		7D492F0328CBC14A0058C961 /* Project3Prep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D492F0228CBC14A0058C961 /* Project3Prep.swift */; };
 		7D4B5A0C28CE0EA900D23719 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B5A0B28CE0EA900D23719 /* SleepCalculator.mlmodel */; };
 		7D4B5A0E28CE18AA00D23719 /* Project5Final.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B5A0D28CE18AA00D23719 /* Project5Final.swift */; };
+		7D65486E28D65F1C000F5F6E /* SelectedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D65486D28D65F1B000F5F6E /* SelectedButton.swift */; };
+		7D65487128D669A1000F5F6E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D65487028D669A0000F5F6E /* MainView.swift */; };
+		7D65487428D66ABA000F5F6E /* ButtonLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D65487328D66ABA000F5F6E /* ButtonLook.swift */; };
+		7D65487928D6803A000F5F6E /* TakeItEasy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D65487828D6803A000F5F6E /* TakeItEasy.swift */; };
+		7D65487B28D6816C000F5F6E /* TakeItEasyTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D65487A28D6816C000F5F6E /* TakeItEasyTwo.swift */; };
 		7D7D0CA128D0AD0F00FA8639 /* Project6Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7D0CA028D0AD0F00FA8639 /* Project6Rotation.swift */; };
-		7D7D0CA328D0D0EC00FA8639 /* Edutainment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7D0CA228D0D0EC00FA8639 /* Edutainment.swift */; };
-		7D7D0CA528D103EC00FA8639 /* identifyButton1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7D0CA428D103EC00FA8639 /* identifyButton1.swift */; };
-		7D7D0CA728D1103700FA8639 /* identifyButton2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7D0CA628D1103700FA8639 /* identifyButton2.swift */; };
+		7D7D0CA528D103EC00FA8639 /* ProjectDay35.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7D0CA428D103EC00FA8639 /* ProjectDay35.swift */; };
 		7D88F84E28C8BEEA00AD0848 /* WeSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D88F84D28C8BEEA00AD0848 /* WeSplitApp.swift */; };
 		7D88F85028C8BEEA00AD0848 /* ProjectWeSplit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D88F84F28C8BEEA00AD0848 /* ProjectWeSplit.swift */; };
 		7D88F85228C8BEEC00AD0848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D88F85128C8BEEC00AD0848 /* Assets.xcassets */; };
 		7D88F85528C8BEEC00AD0848 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D88F85428C8BEEC00AD0848 /* Preview Assets.xcassets */; };
+		7DA6732B28D60CC5007EEAEA /* Parentview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6732A28D60CC5007EEAEA /* Parentview.swift */; };
+		7DA6733228D60F3C007EEAEA /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6733128D60F3C007EEAEA /* AccountView.swift */; };
+		7DA6733428D60F4A007EEAEA /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6733328D60F4A007EEAEA /* BalanceView.swift */; };
+		7DA6733628D60F73007EEAEA /* ProfileClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6733528D60F73007EEAEA /* ProfileClass.swift */; };
+		7DB2FE0328D5B75100919411 /* DataFlowThing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2FE0228D5B75100919411 /* DataFlowThing.swift */; };
+		7DB2FE0528D5BBA100919411 /* DataFlowHonkiFail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2FE0428D5BBA100919411 /* DataFlowHonkiFail.swift */; };
+		7DB2FE0728D5C04C00919411 /* DataFlow1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2FE0628D5C04C00919411 /* DataFlow1.swift */; };
+		7DB2FE0928D5F45F00919411 /* DataFlow2BINDING.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2FE0828D5F45F00919411 /* DataFlow2BINDING.swift */; };
+		7DB2FE0B28D5FB6C00919411 /* DataFlow3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2FE0A28D5FB6C00919411 /* DataFlow3.swift */; };
+		7DB2FE0D28D5FF4300919411 /* ControlPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2FE0C28D5FF4300919411 /* ControlPanelView.swift */; };
+		7DB2FE1128D603E100919411 /* Fun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2FE1028D603E100919411 /* Fun.swift */; };
+		7DB57F0028D7066C00E29935 /* ColorChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB57EFF28D7066C00E29935 /* ColorChange.swift */; };
 		7DB8031B28CD088200111F8C /* playground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB8031A28CD088200111F8C /* playground.swift */; };
 		7DC5D09A28CA30360011E897 /* ProjectWeSplitFixPercentages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC5D09928CA30360011E897 /* ProjectWeSplitFixPercentages.swift */; };
 		7DC5D09C28CA63A60011E897 /* Project1Final.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC5D09B28CA63A60011E897 /* Project1Final.swift */; };
 		7DE2155428CCA6E70006BEEF /* Project3Challenge3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE2155328CCA6E70006BEEF /* Project3Challenge3.swift */; };
 		7DE2155628CCB6270006BEEF /* Project1-3Milestone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE2155528CCB6270006BEEF /* Project1-3Milestone.swift */; };
+		7DED9F5528D4599500224784 /* SimleNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DED9F5428D4599500224784 /* SimleNav.swift */; };
+		7DED9F5928D4740300224784 /* AdvancedNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DED9F5828D4740300224784 /* AdvancedNav.swift */; };
+		7DED9F5B28D4895500224784 /* TryAdvancedNavBlind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DED9F5A28D4895500224784 /* TryAdvancedNavBlind.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7D01118728CDC44B00386217 /* Project4Prep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project4Prep.swift; sourceTree = "<group>"; };
 		7D01118928CE071600386217 /* Projekt4Final.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projekt4Final.swift; sourceTree = "<group>"; };
-		7D14F28128CF320A00E41B7C /* empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = empty.swift; sourceTree = "<group>"; };
 		7D14F28328CF46BA00E41B7C /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		7D14F28528CFA5D200E41B7C /* Project6Prep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project6Prep.swift; sourceTree = "<group>"; };
 		7D2662C228CA119E00FCB731 /* SecondTryBlind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTryBlind.swift; sourceTree = "<group>"; };
+		7D2ECBE328D3B8F2001E6A39 /* smalltest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smalltest.swift; sourceTree = "<group>"; };
 		7D492EFA28CB2F880058C961 /* Project2Prep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project2Prep.swift; sourceTree = "<group>"; };
 		7D492EFC28CB6ABD0058C961 /* Project2Blind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project2Blind.swift; sourceTree = "<group>"; };
-		7D492EFE28CB6B420058C961 /* emptyTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emptyTemplate.swift; sourceTree = "<group>"; };
 		7D492F0028CBA93D0058C961 /* Project2Final.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project2Final.swift; sourceTree = "<group>"; };
 		7D492F0228CBC14A0058C961 /* Project3Prep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project3Prep.swift; sourceTree = "<group>"; };
 		7D4B5A0B28CE0EA900D23719 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 		7D4B5A0D28CE18AA00D23719 /* Project5Final.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project5Final.swift; sourceTree = "<group>"; };
+		7D65486D28D65F1B000F5F6E /* SelectedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedButton.swift; sourceTree = "<group>"; };
+		7D65487028D669A0000F5F6E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7D65487328D66ABA000F5F6E /* ButtonLook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLook.swift; sourceTree = "<group>"; };
+		7D65487828D6803A000F5F6E /* TakeItEasy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeItEasy.swift; sourceTree = "<group>"; };
+		7D65487A28D6816C000F5F6E /* TakeItEasyTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeItEasyTwo.swift; sourceTree = "<group>"; };
 		7D7D0CA028D0AD0F00FA8639 /* Project6Rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project6Rotation.swift; sourceTree = "<group>"; };
-		7D7D0CA228D0D0EC00FA8639 /* Edutainment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edutainment.swift; sourceTree = "<group>"; };
-		7D7D0CA428D103EC00FA8639 /* identifyButton1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = identifyButton1.swift; sourceTree = "<group>"; };
-		7D7D0CA628D1103700FA8639 /* identifyButton2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = identifyButton2.swift; sourceTree = "<group>"; };
+		7D7D0CA428D103EC00FA8639 /* ProjectDay35.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDay35.swift; sourceTree = "<group>"; };
 		7D88F84A28C8BEEA00AD0848 /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D88F84D28C8BEEA00AD0848 /* WeSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitApp.swift; sourceTree = "<group>"; };
 		7D88F84F28C8BEEA00AD0848 /* ProjectWeSplit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectWeSplit.swift; sourceTree = "<group>"; };
 		7D88F85128C8BEEC00AD0848 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D88F85428C8BEEC00AD0848 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7DA6732A28D60CC5007EEAEA /* Parentview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parentview.swift; sourceTree = "<group>"; };
+		7DA6733128D60F3C007EEAEA /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		7DA6733328D60F4A007EEAEA /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
+		7DA6733528D60F73007EEAEA /* ProfileClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileClass.swift; sourceTree = "<group>"; };
+		7DB2FE0228D5B75100919411 /* DataFlowThing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFlowThing.swift; sourceTree = "<group>"; };
+		7DB2FE0428D5BBA100919411 /* DataFlowHonkiFail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFlowHonkiFail.swift; sourceTree = "<group>"; };
+		7DB2FE0628D5C04C00919411 /* DataFlow1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFlow1.swift; sourceTree = "<group>"; };
+		7DB2FE0828D5F45F00919411 /* DataFlow2BINDING.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFlow2BINDING.swift; sourceTree = "<group>"; };
+		7DB2FE0A28D5FB6C00919411 /* DataFlow3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFlow3.swift; sourceTree = "<group>"; };
+		7DB2FE0C28D5FF4300919411 /* ControlPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanelView.swift; sourceTree = "<group>"; };
+		7DB2FE1028D603E100919411 /* Fun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fun.swift; sourceTree = "<group>"; };
+		7DB57EFF28D7066C00E29935 /* ColorChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChange.swift; sourceTree = "<group>"; };
 		7DB8031A28CD088200111F8C /* playground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playground.swift; sourceTree = "<group>"; };
 		7DC5D09928CA30360011E897 /* ProjectWeSplitFixPercentages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectWeSplitFixPercentages.swift; sourceTree = "<group>"; };
 		7DC5D09B28CA63A60011E897 /* Project1Final.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project1Final.swift; sourceTree = "<group>"; };
 		7DE2155328CCA6E70006BEEF /* Project3Challenge3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project3Challenge3.swift; sourceTree = "<group>"; };
 		7DE2155528CCB6270006BEEF /* Project1-3Milestone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project1-3Milestone.swift"; sourceTree = "<group>"; };
+		7DED9F5428D4599500224784 /* SimleNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimleNav.swift; sourceTree = "<group>"; };
+		7DED9F5828D4740300224784 /* AdvancedNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedNav.swift; sourceTree = "<group>"; };
+		7DED9F5A28D4895500224784 /* TryAdvancedNavBlind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryAdvancedNavBlind.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +110,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D65486F28D6692B000F5F6E /* Try2Day35 */ = {
+			isa = PBXGroup;
+			children = (
+				7D65487028D669A0000F5F6E /* MainView.swift */,
+				7D65487328D66ABA000F5F6E /* ButtonLook.swift */,
+			);
+			path = Try2Day35;
+			sourceTree = "<group>";
+		};
+		7D65487228D669CD000F5F6E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				7D65486D28D65F1B000F5F6E /* SelectedButton.swift */,
+				7D7D0CA428D103EC00FA8639 /* ProjectDay35.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		7D65487728D67FE2000F5F6E /* Try3Day35 */ = {
+			isa = PBXGroup;
+			children = (
+				7D88F84D28C8BEEA00AD0848 /* WeSplitApp.swift */,
+				7D65487828D6803A000F5F6E /* TakeItEasy.swift */,
+				7D65487A28D6816C000F5F6E /* TakeItEasyTwo.swift */,
+				7DB57EFF28D7066C00E29935 /* ColorChange.swift */,
+			);
+			path = Try3Day35;
+			sourceTree = "<group>";
+		};
 		7D88F84128C8BEEA00AD0848 = {
 			isa = PBXGroup;
 			children = (
@@ -95,32 +158,12 @@
 		7D88F84C28C8BEEA00AD0848 /* WeSplit */ = {
 			isa = PBXGroup;
 			children = (
-				7D88F84D28C8BEEA00AD0848 /* WeSplitApp.swift */,
-				7D88F84F28C8BEEA00AD0848 /* ProjectWeSplit.swift */,
-				7D2662C228CA119E00FCB731 /* SecondTryBlind.swift */,
-				7DC5D09928CA30360011E897 /* ProjectWeSplitFixPercentages.swift */,
-				7DC5D09B28CA63A60011E897 /* Project1Final.swift */,
-				7D492EFA28CB2F880058C961 /* Project2Prep.swift */,
-				7D492EFC28CB6ABD0058C961 /* Project2Blind.swift */,
-				7D492F0028CBA93D0058C961 /* Project2Final.swift */,
-				7D492F0228CBC14A0058C961 /* Project3Prep.swift */,
-				7DE2155328CCA6E70006BEEF /* Project3Challenge3.swift */,
-				7DE2155528CCB6270006BEEF /* Project1-3Milestone.swift */,
-				7D01118728CDC44B00386217 /* Project4Prep.swift */,
-				7D01118928CE071600386217 /* Projekt4Final.swift */,
-				7D4B5A0D28CE18AA00D23719 /* Project5Final.swift */,
-				7D14F28528CFA5D200E41B7C /* Project6Prep.swift */,
-				7D7D0CA028D0AD0F00FA8639 /* Project6Rotation.swift */,
-				7D7D0CA228D0D0EC00FA8639 /* Edutainment.swift */,
-				7D14F28328CF46BA00E41B7C /* start.txt */,
-				7D14F28128CF320A00E41B7C /* empty.swift */,
-				7DB8031A28CD088200111F8C /* playground.swift */,
-				7D7D0CA428D103EC00FA8639 /* identifyButton1.swift */,
-				7D7D0CA628D1103700FA8639 /* identifyButton2.swift */,
-				7D492EFE28CB6B420058C961 /* emptyTemplate.swift */,
-				7D4B5A0B28CE0EA900D23719 /* SleepCalculator.mlmodel */,
-				7DE2155228CCA6B50006BEEF /* First Block Projects */,
+				7DA6733028D60EB4007EEAEA /* Learn Views */,
+				7D65487728D67FE2000F5F6E /* Try3Day35 */,
+				7D65486F28D6692B000F5F6E /* Try2Day35 */,
+				7D65487228D669CD000F5F6E /* New Group */,
 				7D88F85128C8BEEC00AD0848 /* Assets.xcassets */,
+				7D9FE8BC28D35E4800A5FE1D /* Projects */,
 				7D88F85328C8BEEC00AD0848 /* Preview Content */,
 			);
 			path = WeSplit;
@@ -134,9 +177,89 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		7D9FE8BC28D35E4800A5FE1D /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				7DB8031A28CD088200111F8C /* playground.swift */,
+				7D9FE8BD28D35E6200A5FE1D /* Second Block Projects */,
+				7DE2155228CCA6B50006BEEF /* First Block Projects */,
+			);
+			path = Projects;
+			sourceTree = "<group>";
+		};
+		7D9FE8BD28D35E6200A5FE1D /* Second Block Projects */ = {
+			isa = PBXGroup;
+			children = (
+				7D01118728CDC44B00386217 /* Project4Prep.swift */,
+				7D01118928CE071600386217 /* Projekt4Final.swift */,
+				7D4B5A0D28CE18AA00D23719 /* Project5Final.swift */,
+				7D14F28528CFA5D200E41B7C /* Project6Prep.swift */,
+				7D7D0CA028D0AD0F00FA8639 /* Project6Rotation.swift */,
+				7D14F28328CF46BA00E41B7C /* start.txt */,
+				7D4B5A0B28CE0EA900D23719 /* SleepCalculator.mlmodel */,
+			);
+			path = "Second Block Projects";
+			sourceTree = "<group>";
+		};
+		7DA6732C28D60E31007EEAEA /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				7DED9F5428D4599500224784 /* SimleNav.swift */,
+				7DED9F5828D4740300224784 /* AdvancedNav.swift */,
+				7DED9F5A28D4895500224784 /* TryAdvancedNavBlind.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		7DA6732D28D60E47007EEAEA /* Simple Data */ = {
+			isa = PBXGroup;
+			children = (
+				7DB2FE1028D603E100919411 /* Fun.swift */,
+				7D2ECBE328D3B8F2001E6A39 /* smalltest.swift */,
+				7DB2FE0228D5B75100919411 /* DataFlowThing.swift */,
+				7DB2FE0428D5BBA100919411 /* DataFlowHonkiFail.swift */,
+				7DB2FE0628D5C04C00919411 /* DataFlow1.swift */,
+				7DB2FE0828D5F45F00919411 /* DataFlow2BINDING.swift */,
+				7DB2FE0A28D5FB6C00919411 /* DataFlow3.swift */,
+				7DA6732A28D60CC5007EEAEA /* Parentview.swift */,
+				7DB2FE0C28D5FF4300919411 /* ControlPanelView.swift */,
+			);
+			path = "Simple Data";
+			sourceTree = "<group>";
+		};
+		7DA6732E28D60E89007EEAEA /* Advanced Data */ = {
+			isa = PBXGroup;
+			children = (
+				7DA6733128D60F3C007EEAEA /* AccountView.swift */,
+				7DA6733328D60F4A007EEAEA /* BalanceView.swift */,
+				7DA6733528D60F73007EEAEA /* ProfileClass.swift */,
+			);
+			path = "Advanced Data";
+			sourceTree = "<group>";
+		};
+		7DA6733028D60EB4007EEAEA /* Learn Views */ = {
+			isa = PBXGroup;
+			children = (
+				7DA6732E28D60E89007EEAEA /* Advanced Data */,
+				7DA6732D28D60E47007EEAEA /* Simple Data */,
+				7DA6732C28D60E31007EEAEA /* Navigation */,
+			);
+			path = "Learn Views";
+			sourceTree = "<group>";
+		};
 		7DE2155228CCA6B50006BEEF /* First Block Projects */ = {
 			isa = PBXGroup;
 			children = (
+				7D88F84F28C8BEEA00AD0848 /* ProjectWeSplit.swift */,
+				7D2662C228CA119E00FCB731 /* SecondTryBlind.swift */,
+				7DC5D09928CA30360011E897 /* ProjectWeSplitFixPercentages.swift */,
+				7DC5D09B28CA63A60011E897 /* Project1Final.swift */,
+				7D492EFA28CB2F880058C961 /* Project2Prep.swift */,
+				7D492EFC28CB6ABD0058C961 /* Project2Blind.swift */,
+				7D492F0028CBA93D0058C961 /* Project2Final.swift */,
+				7D492F0228CBC14A0058C961 /* Project3Prep.swift */,
+				7DE2155328CCA6E70006BEEF /* Project3Challenge3.swift */,
+				7DE2155528CCB6270006BEEF /* Project1-3Milestone.swift */,
 			);
 			path = "First Block Projects";
 			sourceTree = "<group>";
@@ -213,27 +336,44 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DE2155428CCA6E70006BEEF /* Project3Challenge3.swift in Sources */,
+				7D65487128D669A1000F5F6E /* MainView.swift in Sources */,
 				7D4B5A0C28CE0EA900D23719 /* SleepCalculator.mlmodel in Sources */,
 				7D492F0328CBC14A0058C961 /* Project3Prep.swift in Sources */,
 				7DC5D09C28CA63A60011E897 /* Project1Final.swift in Sources */,
-				7D492EFF28CB6B420058C961 /* emptyTemplate.swift in Sources */,
-				7D7D0CA328D0D0EC00FA8639 /* Edutainment.swift in Sources */,
 				7D2662C328CA119E00FCB731 /* SecondTryBlind.swift in Sources */,
+				7D65486E28D65F1C000F5F6E /* SelectedButton.swift in Sources */,
+				7DB2FE0928D5F45F00919411 /* DataFlow2BINDING.swift in Sources */,
 				7D7D0CA128D0AD0F00FA8639 /* Project6Rotation.swift in Sources */,
+				7DA6732B28D60CC5007EEAEA /* Parentview.swift in Sources */,
+				7DED9F5928D4740300224784 /* AdvancedNav.swift in Sources */,
+				7D65487428D66ABA000F5F6E /* ButtonLook.swift in Sources */,
 				7DB8031B28CD088200111F8C /* playground.swift in Sources */,
+				7DA6733628D60F73007EEAEA /* ProfileClass.swift in Sources */,
 				7D4B5A0E28CE18AA00D23719 /* Project5Final.swift in Sources */,
 				7D01118A28CE071600386217 /* Projekt4Final.swift in Sources */,
-				7D7D0CA528D103EC00FA8639 /* identifyButton1.swift in Sources */,
-				7D14F28228CF320A00E41B7C /* empty.swift in Sources */,
+				7DB2FE0B28D5FB6C00919411 /* DataFlow3.swift in Sources */,
+				7DB2FE0328D5B75100919411 /* DataFlowThing.swift in Sources */,
+				7D2ECBE428D3B8F2001E6A39 /* smalltest.swift in Sources */,
+				7D7D0CA528D103EC00FA8639 /* ProjectDay35.swift in Sources */,
+				7DB2FE0728D5C04C00919411 /* DataFlow1.swift in Sources */,
 				7D88F85028C8BEEA00AD0848 /* ProjectWeSplit.swift in Sources */,
 				7D492F0128CBA93D0058C961 /* Project2Final.swift in Sources */,
+				7DB2FE1128D603E100919411 /* Fun.swift in Sources */,
+				7DA6733228D60F3C007EEAEA /* AccountView.swift in Sources */,
 				7D88F84E28C8BEEA00AD0848 /* WeSplitApp.swift in Sources */,
+				7DB2FE0D28D5FF4300919411 /* ControlPanelView.swift in Sources */,
 				7DE2155628CCB6270006BEEF /* Project1-3Milestone.swift in Sources */,
+				7DA6733428D60F4A007EEAEA /* BalanceView.swift in Sources */,
 				7D14F28628CFA5D200E41B7C /* Project6Prep.swift in Sources */,
-				7D7D0CA728D1103700FA8639 /* identifyButton2.swift in Sources */,
 				7D492EFD28CB6ABD0058C961 /* Project2Blind.swift in Sources */,
 				7DC5D09A28CA30360011E897 /* ProjectWeSplitFixPercentages.swift in Sources */,
 				7D492EFB28CB2F880058C961 /* Project2Prep.swift in Sources */,
+				7DB57F0028D7066C00E29935 /* ColorChange.swift in Sources */,
+				7DED9F5528D4599500224784 /* SimleNav.swift in Sources */,
+				7DB2FE0528D5BBA100919411 /* DataFlowHonkiFail.swift in Sources */,
+				7D65487928D6803A000F5F6E /* TakeItEasy.swift in Sources */,
+				7DED9F5B28D4895500224784 /* TryAdvancedNavBlind.swift in Sources */,
+				7D65487B28D6816C000F5F6E /* TakeItEasyTwo.swift in Sources */,
 				7D01118828CDC44B00386217 /* Project4Prep.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,6 +510,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -398,6 +539,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

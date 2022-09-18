@@ -5,7 +5,6 @@ extension Text {
         self
             .bold()
             .foregroundColor(.primary)
-//            .font(.largeTitle)
             .font(
                    .custom(
                    "AmericanTypewriter",
