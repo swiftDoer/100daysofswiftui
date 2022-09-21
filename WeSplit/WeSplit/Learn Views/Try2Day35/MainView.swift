@@ -8,7 +8,7 @@
 import SwiftUI
 struct MainView: View {
     
-    @State var button1 = ButtonLook(buttonNumber: 1)
+//    @State var button1 = ButtonLook(buttonNumber: 1)
 //    @State var buttonSelected = [Int]()
 //
     var body: some View {

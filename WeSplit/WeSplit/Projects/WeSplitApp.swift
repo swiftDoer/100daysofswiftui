@@ -17,10 +17,9 @@ struct WeSplitApp: App { //do not change this struct name
 //                .environmentObject(GameStart()) // profile will be accessible to AccountView and all of its subviews.
             
 //            MainView()
-            ReviewClosuresAndStructs()
-            
-            
-                
+            ButtonUI()
+//            oneView()
+//                .environmentObject(BreadViewModel())
         }
     }
 }
