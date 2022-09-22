@@ -3,9 +3,9 @@ import SwiftUI
 @main
 struct WeSplitApp: App { //do not change this struct name
     
-//    init() {
-//        UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor : UIColor.red]
-//    }
+    init() {
+        UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor : UIColor.white]
+    }
     
 //    @StateObject var appInfo = AppInformation()
     
@@ -17,7 +17,7 @@ struct WeSplitApp: App { //do not change this struct name
 //                .environmentObject(GameStart()) // profile will be accessible to AccountView and all of its subviews.
             
 //            MainView()
-            ButtonUI()
+            Day36()
 //            oneView()
 //                .environmentObject(BreadViewModel())
         }

@@ -14,17 +14,18 @@ struct AppStorage2: View {
     var body: some View {
         VStack(spacing: 20) {
             if currentUserName == nil {
-//                Text(currentUserName ?? "Add name here") }
-                Text("Add name here") }
+                Text(currentUserName ?? "Add name here")
+                Text("Add name here")
+            }
             
             if let name = currentUserName {
                 Text(name)
             }
             
             Button("Save".uppercased()) {
-                let name = "Nic"
+                let name = "Paul"
                 currentUserName = name
-//                UserDefaults.standard.set(name, forKey: "name")
+                UserDefaults.standard.set(name, forKey: "name")
             }
         }
 //        .onAppear(){
