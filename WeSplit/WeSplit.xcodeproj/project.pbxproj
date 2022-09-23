@@ -13,12 +13,17 @@
 		7D010AB628DC6BE100E8E108 /* SecondVieww.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D010AB528DC6BE100E8E108 /* SecondVieww.swift */; };
 		7D010AB828DC892100E8E108 /* asdfoisfod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D010AB728DC892100E8E108 /* asdfoisfod.swift */; };
 		7D010ABA28DC8B2A00E8E108 /* Day36Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D010AB928DC8B2A00E8E108 /* Day36Model.swift */; };
+		7D010ABD28DC9EAE00E8E108 /* MainViewDay37.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D010ABC28DC9EAE00E8E108 /* MainViewDay37.swift */; };
+		7D010ABF28DC9F6E00E8E108 /* Third33View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D010ABE28DC9F6E00E8E108 /* Third33View.swift */; };
+		7D010AC128DCA33C00E8E108 /* PersonalExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D010AC028DCA33C00E8E108 /* PersonalExpense.swift */; };
+		7D010AC328DCA39500E8E108 /* ExpenseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D010AC228DCA39500E8E108 /* ExpenseViewModel.swift */; };
 		7D01118828CDC44B00386217 /* Project4Prep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D01118728CDC44B00386217 /* Project4Prep.swift */; };
 		7D01118A28CE071600386217 /* Projekt4Final.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D01118928CE071600386217 /* Projekt4Final.swift */; };
 		7D08B6A528DA69C9009FC19D /* ViewMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D08B6A428DA69C9009FC19D /* ViewMaker.swift */; };
 		7D08B6A728DA781C009FC19D /* problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D08B6A628DA781C009FC19D /* problem.swift */; };
 		7D14F28428CF46BA00E41B7C /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7D14F28328CF46BA00E41B7C /* start.txt */; };
 		7D14F28628CFA5D200E41B7C /* Project6Prep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D14F28528CFA5D200E41B7C /* Project6Prep.swift */; };
+		7D2022C528DD7D1C00BC0826 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2022C428DD7D1C00BC0826 /* AddView.swift */; };
 		7D2662C328CA119E00FCB731 /* SecondTryBlind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2662C228CA119E00FCB731 /* SecondTryBlind.swift */; };
 		7D2ECBE428D3B8F2001E6A39 /* smalltest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2ECBE328D3B8F2001E6A39 /* smalltest.swift */; };
 		7D43A36028DAE20100193EE5 /* BoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D43A35F28DAE20100193EE5 /* BoardingView.swift */; };
@@ -110,12 +115,17 @@
 		7D010AB528DC6BE100E8E108 /* SecondVieww.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVieww.swift; sourceTree = "<group>"; };
 		7D010AB728DC892100E8E108 /* asdfoisfod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asdfoisfod.swift; sourceTree = "<group>"; };
 		7D010AB928DC8B2A00E8E108 /* Day36Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day36Model.swift; sourceTree = "<group>"; };
+		7D010ABC28DC9EAE00E8E108 /* MainViewDay37.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewDay37.swift; sourceTree = "<group>"; };
+		7D010ABE28DC9F6E00E8E108 /* Third33View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Third33View.swift; sourceTree = "<group>"; };
+		7D010AC028DCA33C00E8E108 /* PersonalExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalExpense.swift; sourceTree = "<group>"; };
+		7D010AC228DCA39500E8E108 /* ExpenseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseViewModel.swift; sourceTree = "<group>"; };
 		7D01118728CDC44B00386217 /* Project4Prep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project4Prep.swift; sourceTree = "<group>"; };
 		7D01118928CE071600386217 /* Projekt4Final.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projekt4Final.swift; sourceTree = "<group>"; };
 		7D08B6A428DA69C9009FC19D /* ViewMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMaker.swift; sourceTree = "<group>"; };
 		7D08B6A628DA781C009FC19D /* problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = problem.swift; sourceTree = "<group>"; };
 		7D14F28328CF46BA00E41B7C /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		7D14F28528CFA5D200E41B7C /* Project6Prep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project6Prep.swift; sourceTree = "<group>"; };
+		7D2022C428DD7D1C00BC0826 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		7D2662C228CA119E00FCB731 /* SecondTryBlind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTryBlind.swift; sourceTree = "<group>"; };
 		7D2ECBE328D3B8F2001E6A39 /* smalltest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smalltest.swift; sourceTree = "<group>"; };
 		7D43A35F28DAE20100193EE5 /* BoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardingView.swift; sourceTree = "<group>"; };
@@ -217,11 +227,30 @@
 			children = (
 				7D010AB028DC571000E8E108 /* Day36.swift */,
 				7D010AB528DC6BE100E8E108 /* SecondVieww.swift */,
+				7D010ABE28DC9F6E00E8E108 /* Third33View.swift */,
 				7D010AB728DC892100E8E108 /* asdfoisfod.swift */,
 				7D010AB928DC8B2A00E8E108 /* Day36Model.swift */,
 				7D010AB328DC6B9F00E8E108 /* Day36ViewModel.swift */,
 			);
 			path = Day36;
+			sourceTree = "<group>";
+		};
+		7D010ABB28DC8FF500E8E108 /* Day37 */ = {
+			isa = PBXGroup;
+			children = (
+				7D010ABC28DC9EAE00E8E108 /* MainViewDay37.swift */,
+				7D2022C428DD7D1C00BC0826 /* AddView.swift */,
+				7D010AC028DCA33C00E8E108 /* PersonalExpense.swift */,
+				7D010AC228DCA39500E8E108 /* ExpenseViewModel.swift */,
+			);
+			path = Day37;
+			sourceTree = "<group>";
+		};
+		7D2022C628DDA46A00BC0826 /* Day38 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Day38;
 			sourceTree = "<group>";
 		};
 		7D43A35E28DAE1E100193EE5 /* bootcamp53 */ = {
@@ -381,6 +410,8 @@
 		7D8E650628D896B80083E774 /* Days36+ */ = {
 			isa = PBXGroup;
 			children = (
+				7D2022C628DDA46A00BC0826 /* Day38 */,
+				7D010ABB28DC8FF500E8E108 /* Day37 */,
 				7D010AB228DC6B2100E8E108 /* Day36 */,
 				7D88F84D28C8BEEA00AD0848 /* WeSplitApp.swift */,
 			);
@@ -634,6 +665,7 @@
 			files = (
 				7D43A36028DAE20100193EE5 /* BoardingView.swift in Sources */,
 				7D8E652428D8D4CB0083E774 /* View.swift in Sources */,
+				7D010ABD28DC9EAE00E8E108 /* MainViewDay37.swift in Sources */,
 				7DE2155428CCA6E70006BEEF /* Project3Challenge3.swift in Sources */,
 				7D5D59CB28D9ACC6002CC7FD /* SecondScreen.swift in Sources */,
 				7D65487128D669A1000F5F6E /* MainView.swift in Sources */,
@@ -646,6 +678,7 @@
 				7D492F0328CBC14A0058C961 /* Project3Prep.swift in Sources */,
 				7DC5D09C28CA63A60011E897 /* Project1Final.swift in Sources */,
 				7D2662C328CA119E00FCB731 /* SecondTryBlind.swift in Sources */,
+				7D010ABF28DC9F6E00E8E108 /* Third33View.swift in Sources */,
 				7D8E651F28D8B4C70083E774 /* UserModel.swift in Sources */,
 				7D5D59DD28D9F47E002CC7FD /* ifletguardBootccamp.swift in Sources */,
 				7D8E652828D8D5120083E774 /* ViewModel.swift in Sources */,
@@ -674,6 +707,7 @@
 				7D43A36728DB08F600193EE5 /* FrameBootcamp.swift in Sources */,
 				7D01118A28CE071600386217 /* Projekt4Final.swift in Sources */,
 				7D010AAF28DC41BE00E8E108 /* ProfileView.swift in Sources */,
+				7D2022C528DD7D1C00BC0826 /* AddView.swift in Sources */,
 				7D8E651D28D8B1AB0083E774 /* ModelBootcamp.swift in Sources */,
 				7DB2FE0B28D5FB6C00919411 /* DataFlow3.swift in Sources */,
 				7DB2FE0328D5B75100919411 /* DataFlowThing.swift in Sources */,
@@ -688,6 +722,8 @@
 				7D8E650C28D897EB0083E774 /* FancyTimer.swift in Sources */,
 				7D010AB128DC571000E8E108 /* Day36.swift in Sources */,
 				7D88F85028C8BEEA00AD0848 /* ProjectWeSplit.swift in Sources */,
+				7D010AC328DCA39500E8E108 /* ExpenseViewModel.swift in Sources */,
+				7D010AC128DCA33C00E8E108 /* PersonalExpense.swift in Sources */,
 				7D8E652128D8B64E0083E774 /* UserViewModel.swift in Sources */,
 				7D492F0128CBA93D0058C961 /* Project2Final.swift in Sources */,
 				7D010AB828DC892100E8E108 /* asdfoisfod.swift in Sources */,

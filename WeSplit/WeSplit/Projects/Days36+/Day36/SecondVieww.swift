@@ -10,6 +10,7 @@ struct SecondVieww: View {
     
     @ObservedObject var user : User
     @Environment(\.dismiss) var dismiss
+    @State private var sheetShowing = false
     
     var body: some View {
         ZStack {
@@ -20,6 +21,15 @@ struct SecondVieww: View {
             
             //FOREGROUND
             VStack {
+                Button(action: {
+                    sheetShowing.toggle()
+                }, label: {
+                    Text("Show sheet")
+                })
+                .sheet(isPresented: $sheetShowing, content: {
+                    Third33View()
+                })
+                
                 HStack {
                     ForEach(user.numbers, id: \.self) { item in
                         Text("\(item)")
