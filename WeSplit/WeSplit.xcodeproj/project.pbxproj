@@ -246,11 +246,11 @@
 			path = Day37;
 			sourceTree = "<group>";
 		};
-		7D2022C628DDA46A00BC0826 /* Day38 */ = {
+		7D2022C628DDA46A00BC0826 /* Day38-39 */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Day38;
+			path = "Day38-39";
 			sourceTree = "<group>";
 		};
 		7D43A35E28DAE1E100193EE5 /* bootcamp53 */ = {
@@ -410,7 +410,7 @@
 		7D8E650628D896B80083E774 /* Days36+ */ = {
 			isa = PBXGroup;
 			children = (
-				7D2022C628DDA46A00BC0826 /* Day38 */,
+				7D2022C628DDA46A00BC0826 /* Day38-39 */,
 				7D010ABB28DC8FF500E8E108 /* Day37 */,
 				7D010AB228DC6B2100E8E108 /* Day36 */,
 				7D88F84D28C8BEEA00AD0848 /* WeSplitApp.swift */,
@@ -493,13 +493,13 @@
 			children = (
 				7D8E650628D896B80083E774 /* Days36+ */,
 				7DA6733028D60EB4007EEAEA /* Day35 */,
-				7D9FE8BD28D35E6200A5FE1D /* Days26-34 */,
-				7DE2155228CCA6B50006BEEF /* Days16-25 */,
+				7D9FE8BD28D35E6200A5FE1D /* Day26-34 */,
+				7DE2155228CCA6B50006BEEF /* Day16-25 */,
 			);
 			path = Projects;
 			sourceTree = "<group>";
 		};
-		7D9FE8BD28D35E6200A5FE1D /* Days26-34 */ = {
+		7D9FE8BD28D35E6200A5FE1D /* Day26-34 */ = {
 			isa = PBXGroup;
 			children = (
 				7D01118728CDC44B00386217 /* Project4Prep.swift */,
@@ -510,7 +510,7 @@
 				7D14F28328CF46BA00E41B7C /* start.txt */,
 				7D4B5A0B28CE0EA900D23719 /* SleepCalculator.mlmodel */,
 			);
-			path = "Days26-34";
+			path = "Day26-34";
 			sourceTree = "<group>";
 		};
 		7DA6732C28D60E31007EEAEA /* Navigation */ = {
@@ -575,7 +575,7 @@
 			path = Day35;
 			sourceTree = "<group>";
 		};
-		7DE2155228CCA6B50006BEEF /* Days16-25 */ = {
+		7DE2155228CCA6B50006BEEF /* Day16-25 */ = {
 			isa = PBXGroup;
 			children = (
 				7D88F84F28C8BEEA00AD0848 /* ProjectWeSplit.swift */,
@@ -589,7 +589,7 @@
 				7DE2155328CCA6E70006BEEF /* Project3Challenge3.swift */,
 				7DE2155528CCB6270006BEEF /* Project1-3Milestone.swift */,
 			);
-			path = "Days16-25";
+			path = "Day16-25";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
