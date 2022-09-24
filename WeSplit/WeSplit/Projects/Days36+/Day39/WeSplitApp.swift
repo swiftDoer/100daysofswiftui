@@ -10,7 +10,7 @@ struct WeSplitApp: App {
     
     var body: some Scene {
         WindowGroup {
-            MainViewDay37()
+            MoonShotView()
 
             
             /*

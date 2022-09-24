@@ -25,6 +25,16 @@
 		7D14F28628CFA5D200E41B7C /* Project6Prep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D14F28528CFA5D200E41B7C /* Project6Prep.swift */; };
 		7D2022C528DD7D1C00BC0826 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2022C428DD7D1C00BC0826 /* AddView.swift */; };
 		7D2022C828DDA56300BC0826 /* MoonShotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2022C728DDA56300BC0826 /* MoonShotView.swift */; };
+		7D2022CA28DDAA4B00BC0826 /* Day39Playground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2022C928DDAA4B00BC0826 /* Day39Playground.swift */; };
+		7D2022CD28DDEBBE00BC0826 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D2022CB28DDEBBE00BC0826 /* missions.json */; };
+		7D2022CE28DDEBBE00BC0826 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D2022CC28DDEBBE00BC0826 /* astronauts.json */; };
+		7D2022D028DDEC0400BC0826 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2022CF28DDEC0400BC0826 /* Astronaut.swift */; };
+		7D2022D228DDECCF00BC0826 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2022D128DDECCF00BC0826 /* Bundle-Decodable.swift */; };
+		7D2022D428DDF04400BC0826 /* MissionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2022D328DDF04400BC0826 /* MissionModel.swift */; };
+		7D2022D628DE2A3F00BC0826 /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2022D528DE2A3F00BC0826 /* ColorTheme.swift */; };
+		7D2022D828DE311D00BC0826 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2022D728DE311D00BC0826 /* MissionView.swift */; };
+		7D2022DA28DE3B8B00BC0826 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2022D928DE3B8B00BC0826 /* AstronautView.swift */; };
+		7D2022DC28DE447400BC0826 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2022DB28DE447400BC0826 /* ButtonStyle.swift */; };
 		7D2662C328CA119E00FCB731 /* SecondTryBlind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2662C228CA119E00FCB731 /* SecondTryBlind.swift */; };
 		7D2ECBE428D3B8F2001E6A39 /* smalltest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2ECBE328D3B8F2001E6A39 /* smalltest.swift */; };
 		7D43A36028DAE20100193EE5 /* BoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D43A35F28DAE20100193EE5 /* BoardingView.swift */; };
@@ -100,8 +110,11 @@
 		7DB2FE1128D603E100919411 /* Fun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2FE1028D603E100919411 /* Fun.swift */; };
 		7DB57F0028D7066C00E29935 /* ColorChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB57EFF28D7066C00E29935 /* ColorChange.swift */; };
 		7DB8031B28CD088200111F8C /* playground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB8031A28CD088200111F8C /* playground.swift */; };
+		7DC22FFE28DE514A00D72721 /* Wait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC22FFD28DE514900D72721 /* Wait.swift */; };
 		7DC5D09A28CA30360011E897 /* ProjectWeSplitFixPercentages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC5D09928CA30360011E897 /* ProjectWeSplitFixPercentages.swift */; };
 		7DC5D09C28CA63A60011E897 /* Project1Final.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC5D09B28CA63A60011E897 /* Project1Final.swift */; };
+		7DE18DF428DEFB98004F9B28 /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE18DF328DEFB98004F9B28 /* ScrollView.swift */; };
+		7DE18DF628DF0426004F9B28 /* CheckCheckMicCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE18DF528DF0426004F9B28 /* CheckCheckMicCheck.swift */; };
 		7DE2155428CCA6E70006BEEF /* Project3Challenge3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE2155328CCA6E70006BEEF /* Project3Challenge3.swift */; };
 		7DE2155628CCB6270006BEEF /* Project1-3Milestone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE2155528CCB6270006BEEF /* Project1-3Milestone.swift */; };
 		7DED9F5528D4599500224784 /* SimleNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DED9F5428D4599500224784 /* SimleNav.swift */; };
@@ -128,6 +141,16 @@
 		7D14F28528CFA5D200E41B7C /* Project6Prep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project6Prep.swift; sourceTree = "<group>"; };
 		7D2022C428DD7D1C00BC0826 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		7D2022C728DDA56300BC0826 /* MoonShotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonShotView.swift; sourceTree = "<group>"; };
+		7D2022C928DDAA4B00BC0826 /* Day39Playground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day39Playground.swift; sourceTree = "<group>"; };
+		7D2022CB28DDEBBE00BC0826 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
+		7D2022CC28DDEBBE00BC0826 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		7D2022CF28DDEC0400BC0826 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		7D2022D128DDECCF00BC0826 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		7D2022D328DDF04400BC0826 /* MissionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionModel.swift; sourceTree = "<group>"; };
+		7D2022D528DE2A3F00BC0826 /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
+		7D2022D728DE311D00BC0826 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		7D2022D928DE3B8B00BC0826 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
+		7D2022DB28DE447400BC0826 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 		7D2662C228CA119E00FCB731 /* SecondTryBlind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTryBlind.swift; sourceTree = "<group>"; };
 		7D2ECBE328D3B8F2001E6A39 /* smalltest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smalltest.swift; sourceTree = "<group>"; };
 		7D43A35F28DAE20100193EE5 /* BoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardingView.swift; sourceTree = "<group>"; };
@@ -204,8 +227,11 @@
 		7DB2FE1028D603E100919411 /* Fun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fun.swift; sourceTree = "<group>"; };
 		7DB57EFF28D7066C00E29935 /* ColorChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChange.swift; sourceTree = "<group>"; };
 		7DB8031A28CD088200111F8C /* playground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playground.swift; sourceTree = "<group>"; };
+		7DC22FFD28DE514900D72721 /* Wait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wait.swift; sourceTree = "<group>"; };
 		7DC5D09928CA30360011E897 /* ProjectWeSplitFixPercentages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectWeSplitFixPercentages.swift; sourceTree = "<group>"; };
 		7DC5D09B28CA63A60011E897 /* Project1Final.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project1Final.swift; sourceTree = "<group>"; };
+		7DE18DF328DEFB98004F9B28 /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
+		7DE18DF528DF0426004F9B28 /* CheckCheckMicCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckCheckMicCheck.swift; sourceTree = "<group>"; };
 		7DE2155328CCA6E70006BEEF /* Project3Challenge3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project3Challenge3.swift; sourceTree = "<group>"; };
 		7DE2155528CCB6270006BEEF /* Project1-3Milestone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project1-3Milestone.swift"; sourceTree = "<group>"; };
 		7DED9F5428D4599500224784 /* SimleNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimleNav.swift; sourceTree = "<group>"; };
@@ -252,6 +278,21 @@
 			isa = PBXGroup;
 			children = (
 				7D2022C728DDA56300BC0826 /* MoonShotView.swift */,
+				7DE18DF528DF0426004F9B28 /* CheckCheckMicCheck.swift */,
+				7D2022D728DE311D00BC0826 /* MissionView.swift */,
+				7DE18DF328DEFB98004F9B28 /* ScrollView.swift */,
+				7D2022D928DE3B8B00BC0826 /* AstronautView.swift */,
+				7D2022CF28DDEC0400BC0826 /* Astronaut.swift */,
+				7D2022D128DDECCF00BC0826 /* Bundle-Decodable.swift */,
+				7D2022D328DDF04400BC0826 /* MissionModel.swift */,
+				7D2022D528DE2A3F00BC0826 /* ColorTheme.swift */,
+				7D2022CC28DDEBBE00BC0826 /* astronauts.json */,
+				7D2022CB28DDEBBE00BC0826 /* missions.json */,
+				7D88F85128C8BEEC00AD0848 /* Assets.xcassets */,
+				7D88F84D28C8BEEA00AD0848 /* WeSplitApp.swift */,
+				7D2022C928DDAA4B00BC0826 /* Day39Playground.swift */,
+				7D2022DB28DE447400BC0826 /* ButtonStyle.swift */,
+				7DC22FFD28DE514900D72721 /* Wait.swift */,
 			);
 			path = Day39;
 			sourceTree = "<group>";
@@ -395,7 +436,6 @@
 		7D88F84C28C8BEEA00AD0848 /* WeSplit */ = {
 			isa = PBXGroup;
 			children = (
-				7D88F85128C8BEEC00AD0848 /* Assets.xcassets */,
 				7D9FE8BC28D35E4800A5FE1D /* Projects */,
 				7D88F85328C8BEEC00AD0848 /* Preview Content */,
 			);
@@ -416,7 +456,6 @@
 				7D2022C628DDA46A00BC0826 /* Day39 */,
 				7D010ABB28DC8FF500E8E108 /* Day37-38 */,
 				7D010AB228DC6B2100E8E108 /* Day36 */,
-				7D88F84D28C8BEEA00AD0848 /* WeSplitApp.swift */,
 			);
 			path = "Days36+";
 			sourceTree = "<group>";
@@ -655,6 +694,8 @@
 			files = (
 				7D88F85528C8BEEC00AD0848 /* Preview Assets.xcassets in Resources */,
 				7D14F28428CF46BA00E41B7C /* start.txt in Resources */,
+				7D2022CD28DDEBBE00BC0826 /* missions.json in Resources */,
+				7D2022CE28DDEBBE00BC0826 /* astronauts.json in Resources */,
 				7D88F85228C8BEEC00AD0848 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -668,6 +709,7 @@
 			files = (
 				7D43A36028DAE20100193EE5 /* BoardingView.swift in Sources */,
 				7D8E652428D8D4CB0083E774 /* View.swift in Sources */,
+				7DE18DF628DF0426004F9B28 /* CheckCheckMicCheck.swift in Sources */,
 				7D010ABD28DC9EAE00E8E108 /* MainViewDay37.swift in Sources */,
 				7DE2155428CCA6E70006BEEF /* Project3Challenge3.swift in Sources */,
 				7D5D59CB28D9ACC6002CC7FD /* SecondScreen.swift in Sources */,
@@ -677,6 +719,8 @@
 				7D8E651A28D89EC70083E774 /* PersonViewModel.swift in Sources */,
 				7D5D59DA28D9F307002CC7FD /* AppStorage.swift in Sources */,
 				7D5D59ED28DA50D3002CC7FD /* BittunView.swift in Sources */,
+				7D2022CA28DDAA4B00BC0826 /* Day39Playground.swift in Sources */,
+				7DC22FFE28DE514A00D72721 /* Wait.swift in Sources */,
 				7D8E652A28D911380083E774 /* ExternalViews.swift in Sources */,
 				7D492F0328CBC14A0058C961 /* Project3Prep.swift in Sources */,
 				7DC5D09C28CA63A60011E897 /* Project1Final.swift in Sources */,
@@ -692,6 +736,7 @@
 				7D8E651028D89A2E0083E774 /* ButtongView.swift in Sources */,
 				7DB2FE0928D5F45F00919411 /* DataFlow2BINDING.swift in Sources */,
 				7D8E650A28D8979A0083E774 /* ObsObject.swift in Sources */,
+				7D2022D228DDECCF00BC0826 /* Bundle-Decodable.swift in Sources */,
 				7D7D0CA128D0AD0F00FA8639 /* Project6Rotation.swift in Sources */,
 				7D8E653328D928B30083E774 /* ExtraStuffAGAIN.swift in Sources */,
 				7D010AB428DC6B9F00E8E108 /* Day36ViewModel.swift in Sources */,
@@ -705,15 +750,19 @@
 				7DA6733628D60F73007EEAEA /* ProfileClass.swift in Sources */,
 				7D5D59D728D9F04C002CC7FD /* tapgestures2.swift in Sources */,
 				7D4B5A0E28CE18AA00D23719 /* Project5Final.swift in Sources */,
+				7DE18DF428DEFB98004F9B28 /* ScrollView.swift in Sources */,
 				7D5D59CE28D9B7B1002CC7FD /* EnvironmentObjectBootcamp.swift in Sources */,
 				7D5D59F328DA57C2002CC7FD /* ButtonLook33.swift in Sources */,
 				7D43A36728DB08F600193EE5 /* FrameBootcamp.swift in Sources */,
 				7D01118A28CE071600386217 /* Projekt4Final.swift in Sources */,
 				7D010AAF28DC41BE00E8E108 /* ProfileView.swift in Sources */,
+				7D2022D028DDEC0400BC0826 /* Astronaut.swift in Sources */,
 				7D2022C528DD7D1C00BC0826 /* AddView.swift in Sources */,
+				7D2022DC28DE447400BC0826 /* ButtonStyle.swift in Sources */,
 				7D8E651D28D8B1AB0083E774 /* ModelBootcamp.swift in Sources */,
 				7DB2FE0B28D5FB6C00919411 /* DataFlow3.swift in Sources */,
 				7DB2FE0328D5B75100919411 /* DataFlowThing.swift in Sources */,
+				7D2022D628DE2A3F00BC0826 /* ColorTheme.swift in Sources */,
 				7D5D59E828DA4764002CC7FD /* fourView.swift in Sources */,
 				7D5D59C728D99A47002CC7FD /* FruitModel.swift in Sources */,
 				7D2ECBE428D3B8F2001E6A39 /* smalltest.swift in Sources */,
@@ -736,6 +785,7 @@
 				7D88F84E28C8BEEA00AD0848 /* WeSplitApp.swift in Sources */,
 				7DB2FE0D28D5FF4300919411 /* ControlPanelView.swift in Sources */,
 				7DE2155628CCB6270006BEEF /* Project1-3Milestone.swift in Sources */,
+				7D2022DA28DE3B8B00BC0826 /* AstronautView.swift in Sources */,
 				7D5D59C528D999C9002CC7FD /* ViewModelBootcamp.swift in Sources */,
 				7DA6733428D60F4A007EEAEA /* BalanceView.swift in Sources */,
 				7D5D59D228D9BA88002CC7FD /* DetailView.swift in Sources */,
@@ -747,9 +797,11 @@
 				7D43A36928DB09C600193EE5 /* GradientBootcamp.swift in Sources */,
 				7D08B6A728DA781C009FC19D /* problem.swift in Sources */,
 				7D5D59D028D9B84A002CC7FD /* EnvironmentThing.swift in Sources */,
+				7D2022D428DDF04400BC0826 /* MissionModel.swift in Sources */,
 				7D492EFD28CB6ABD0058C961 /* Project2Blind.swift in Sources */,
 				7DC5D09A28CA30360011E897 /* ProjectWeSplitFixPercentages.swift in Sources */,
 				7D492EFB28CB2F880058C961 /* Project2Prep.swift in Sources */,
+				7D2022D828DE311D00BC0826 /* MissionView.swift in Sources */,
 				7D08B6A528DA69C9009FC19D /* ViewMaker.swift in Sources */,
 				7DB57F0028D7066C00E29935 /* ColorChange.swift in Sources */,
 				7DED9F5528D4599500224784 /* SimleNav.swift in Sources */,

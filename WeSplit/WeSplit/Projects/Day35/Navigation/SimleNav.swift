@@ -11,7 +11,7 @@ struct RedOneView: View {
                 NavigationLink(destination: {
                     BlueTwoView(color: .green)
                 }, label: {
-                    ButtonStyle()
+                    ThisButtonHadABadNameCausingProblems()
                         .background(Color.blue)
                 })
             }
@@ -20,7 +20,7 @@ struct RedOneView: View {
     }
 }
 
-struct ButtonStyle: View {
+struct ThisButtonHadABadNameCausingProblems: View {
     var body: some View {
         Text("Next Screen")
             .bold()
@@ -44,7 +44,7 @@ struct BlueTwoView: View {
             NavigationLink(destination: {
                 GreenThreeView(color: .brown)
             }, label: {
-                ButtonStyle()
+                ThisButtonHadABadNameCausingProblems()
                     .background(color)
             })
         }
