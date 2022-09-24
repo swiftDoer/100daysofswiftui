@@ -274,7 +274,7 @@
 			path = "Day37-38";
 			sourceTree = "<group>";
 		};
-		7D2022C628DDA46A00BC0826 /* Day39 */ = {
+		7D2022C628DDA46A00BC0826 /* Day39-42 */ = {
 			isa = PBXGroup;
 			children = (
 				7D2022C728DDA56300BC0826 /* MoonShotView.swift */,
@@ -294,7 +294,7 @@
 				7D2022DB28DE447400BC0826 /* ButtonStyle.swift */,
 				7DC22FFD28DE514900D72721 /* Wait.swift */,
 			);
-			path = Day39;
+			path = "Day39-42";
 			sourceTree = "<group>";
 		};
 		7D43A35E28DAE1E100193EE5 /* bootcamp53 */ = {
@@ -453,7 +453,7 @@
 		7D8E650628D896B80083E774 /* Days36+ */ = {
 			isa = PBXGroup;
 			children = (
-				7D2022C628DDA46A00BC0826 /* Day39 */,
+				7D2022C628DDA46A00BC0826 /* Day39-42 */,
 				7D010ABB28DC8FF500E8E108 /* Day37-38 */,
 				7D010AB228DC6B2100E8E108 /* Day36 */,
 			);
