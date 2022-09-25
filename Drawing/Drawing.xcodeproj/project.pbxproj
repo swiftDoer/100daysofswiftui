@@ -56,6 +56,7 @@
 		7D5235A728E0A2C0006DA394 /* useless2 */ = {
 			isa = PBXGroup;
 			children = (
+				7D96EF8128DF87FD00174732 /* ContentView.swift */,
 				7D52359C28E04806006DA394 /* FramesDames.swift */,
 			);
 			path = useless2;
@@ -81,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				7D96EF7F28DF87FD00174732 /* DrawingApp.swift */,
-				7D96EF8128DF87FD00174732 /* ContentView.swift */,
 				7D5235A728E0A2C0006DA394 /* useless2 */,
 				7D52359E28E04D2D006DA394 /* useless */,
 				7D96EF8328DF87FE00174732 /* Assets.xcassets */,
