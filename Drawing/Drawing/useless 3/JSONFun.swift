@@ -1,3 +1,5 @@
+// since i never used a class there is no need for stateobject
+
 import SwiftUI
 struct JSONFun_Previews: PreviewProvider {
     static var previews: some View {

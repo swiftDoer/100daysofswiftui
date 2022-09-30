@@ -18,6 +18,17 @@ struct PiPath: View {
                 //                .stroke(style: StrokeStyle(lineWidth: 30, lineCap: .round, lineJoin: .round))
                 //                .fill(.red)
                     .fill(.pink.gradient, style: FillStyle(eoFill: true))
+                    .onTapGesture {
+                        withAnimation {
+                            if petalWidth == 100 {
+                                petalWidth = 2
+                            } else {
+                                petalOffset = 40
+                                petalWidth = 100
+                            }
+                        }
+                        
+                    }
             }
             
             
@@ -48,6 +59,15 @@ struct Flower: Shape {
     //offset from center
     var petalOffset: Double = -20
     var petalWidth: Double = 10
+    
+//    var animatableData: Double {
+//        get { petalOffset }
+//        set { petalOffset = newValue }
+//    }
+    var animatableData: Double {
+        get { petalWidth }
+        set { petalWidth = newValue }
+    }
     
     func path(in rect: CGRect) -> Path {
         var path = Path()

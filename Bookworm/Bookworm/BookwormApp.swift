@@ -1,10 +1,10 @@
 import SwiftUI
 
 @main
-struct DrawingApp: App {
+struct BookwormApp: App {
     var body: some Scene {
         WindowGroup {
-            EnvrmView()
+            ContentView()
         }
     }
 }

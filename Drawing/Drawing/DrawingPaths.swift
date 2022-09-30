@@ -16,20 +16,23 @@ struct NewMain: View {
         VStack {
             
             ColorRectanglingRectangle(amount: colorRectangle)
-                .frame(width: 300, height: 300)
+                .frame(width: 300, height: 200)
 
             Slider(value: $colorRectangle)
-            
-            Arrow(lineWidth: thing)
-                .frame(width: 300, height: 300)
-                .animation(.default, value: thing)
-                .onTapGesture {
-                    withAnimation {
-                        thing = Double.random(in: 0...1) * 100
+//            GeometryReader { geometry in
+                Arrow(lineWidth: thing)
+                .frame(height: 300)
+                    .animation(.default, value: thing)
+                    .onTapGesture {
+                        withAnimation {
+                            thing = Double.random(in: 0...1) * 100
+                        }
                     }
-                }
+                    
             
+//            }
             Slider(value: $thing, in: 0...100)
+            
             
             HStack {
                 Button(action: {
@@ -62,6 +65,26 @@ struct NewMain: View {
                         .cornerRadius(10)
                 })
             }
+            GeometryReader { geometry in
+                HStack(spacing: 0) {
+                    Text("Left")
+                        .font(.largeTitle)
+                        .foregroundColor(.black)
+                        .frame(width: geometry.size.width * 0.33)
+                        .background(.yellow)
+                    Text("Right")
+                        .font(.largeTitle)
+                        .foregroundColor(.black)
+                        .frame(width: geometry.size.width * 0.33)
+                        .background(.orange)
+                    Text("Righter")
+                        .font(.largeTitle)
+                        .foregroundColor(.black)
+                        .frame(width: geometry.size.width * 0.34)
+                        .background(.yellow)
+                }
+            }
+            .frame(height: 50)
         }
     }
 }

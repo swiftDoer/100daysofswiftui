@@ -1,10 +1,12 @@
 import SwiftUI
 
 @main
-struct DrawingApp: App {
+
+
+struct HabitterApp: App {
     var body: some Scene {
         WindowGroup {
-            EnvrmView()
+            ContentView()
         }
     }
 }
